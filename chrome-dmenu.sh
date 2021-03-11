@@ -1,15 +1,16 @@
 #!/bin/bash
 # config
-DMENU="dmenu -b -l 20"
-BOOKMARK_FILE="$HOME/.config/google-chrome/Default/Bookmarks"
-HISTORY_FILE="$HOME/.config/google-chrome/Default/History"
-CHROME_BIN="google-chrome-stable"
+DMENU="dmenu -l 20 -i"
+BOOKMARK_FILE="$HOME/.config/BraveSoftware/Brave-Browser/Default/Bookmarks"
+HISTORY_FILE="$HOME/.config/BraveSoftware/Brave-Browser/Default/History"
+CHROME_BIN="brave-browser"
 PYTHON_BIN="python3"
 PREFIXES=(
     "g https://www.google.com/search?q= https://www.google.com/"
     "d https://www.duckduckgo.com/?q= https://www.duckduckgo.com/"
     "y https://www.youtube.com/results?search_query= https://www.youtube.com/"
     "h https://github.com/search?q= https://github.com/"
+    "m https://music.youtube.com/search?q= https://music.youtube.com"
 )
 cd `dirname $0`
 
